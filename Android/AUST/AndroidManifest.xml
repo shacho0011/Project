@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aust"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="21" />
+    
+    <permission 
+        android:name="com.example.gmapsaap.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature">
+    </permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.example.android.providers.gsf.premission.READ_GSERVICES"/>
+    <uses-feature 
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aust.MAINACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".DetailsShowPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DETAILSSHOWPAGE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".AcademicPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACADEMICPAGE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        
+        <activity
+            android:name=".AustPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.AUSTPAGE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".AustLifePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.AUSTLIFEPAGE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".DepartmentPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEPARTMENTPAGE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".StudentCornerPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.STUDENTCORNERPAGE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".FacultyMemberShowPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.FACULTYMEMBERSHOWPAGE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".DepartmentDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEPARTMENTDETAILS" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Gallery"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GALLERY" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".GalleryImageDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GALLERYIMAGEDETAILS" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".OpenWebView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.OPENWEBVIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Classes"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CLASSES" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ExamAndGradingSystem"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EXAMANDGRADINGSYSTEM" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".International"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INTERNATIONAL" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Lab"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LAB" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Library"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LIBRARY" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Publication"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PUBLICATION" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Ranking"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.RANKING" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Recognization"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.RECOGNIZATION" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Research"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.RESEARCH" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".TutionsAndFees"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TUTIONSANDFEES" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ContactPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CONTACTPAGE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".GoogleMapView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GOOGLEMAPVIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".GPACalculatorPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GPACALCULATORPAGE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <meta-data
+	        android:name="com.google.android.gms.version"
+	        android:value="@integer/google_play_services_version" />
+        
+        <meta-data 
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDBdROaCbjoD1C9aeGdc5Ct3HB7aQMQSQA"/>
+        
+    </application>
+
+</manifest>

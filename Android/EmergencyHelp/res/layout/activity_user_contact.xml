@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.emergencyhelp.Utilities"
+    android:background="@drawable/call" >
+
+    <Button
+        android:id="@+id/ContactAddButton" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Contact_Add"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/ContactListButton" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ContactList"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/contactUpdateButton" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="contactUpdate"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+        <Button
+        android:id="@+id/contactViewButton" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="contactView"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+</LinearLayout>

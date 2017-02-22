@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: auto;
+    background-image: url(../pagebackground/background.jpg);
+    background-size: 1600px 1200px;
+    background-repeat: no-repeat;
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+nav{
+    padding-left: 200px;
+}
+#login_create_class{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+#login_class, #create_class{
+    border: none;
+    margin: 0 10px 0 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    color: white;
+}
+#login_class:hover, #create_class:hover{
+    background-color: #257188;
+    cursor: pointer;
+}
+footer{
+    padding-left: 200px;
+    padding-right: 150px;
+}

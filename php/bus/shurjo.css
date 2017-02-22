@@ -1,0 +1,43 @@
+/* CSS Document */
+
+#main{width:900px; height:900px; margin:auto; background-image:url(bg.jpg)}
+#header{width:900px; height:200px;}
+ .h1{ width:700px; height:200px; background-image:url(bus61.jpg); float:left}
+ .h2{ width:200px; height:200px; float:right}
+ .h2 h4{font-style:inherit; font-family: Arial, Helvetica, sans-serif; color:#ffffff; position:relative; top:1px}
+ 
+#headlines{background-color:#999999; width:900px; height:30px}
+ #hl1{background-color:#006666; width:150px; height:30px; float:left}
+ #hl2{ background-image:url(hl.jpg);width:750px; height:30px; float:right}
+  h4{font-style:inherit; font-family: Arial, Helvetica, sans-serif; color:#990000; padding-left:5px; text-shadow: 1px 1px 1px #000;}
+ 
+ 
+.mainmenu{ height:28px; width:898px; border: 1px solid #000000; background-image:url(mm.jpg);}
+.mainmenu #nav{ margin:0; padding:05px}
+.mainmenu #nav li{ list-style:none; float:left; position:relative}
+.mainmenu #nav li a{ text-decoration:none; display:block; font-size:18px; font-style:inherit; font-family: Arial, Helvetica, sans-serif; text-align:center; color:#AA1F00; margin-left:12px; margin-right:12px; text-shadow: 1px 1px 1px #bbb;}
+.mainmenu #nav li a:hover{ color:#000000}
+
+/* drop menu csss stat  */
+
+.mainmenu #nav li ul{ position:absolute; background-image:url(nav.jpg); width:120px; margin:0px; padding-left:0px; left:-9999px; z-index:9999px}
+.mainmenu #nav li:hover ul{ left:0px}
+.mainmenu #nav li ul li{float:none; padding-bottom:5px; padding-top:5px;  border-bottom:1px #D41F00 solid; border-radius:20px 0px 20px 0px}
+.mainmenu #nav li ul li:hover{ background-color:#003333}
+.mainmenu #nav li ul li a{ color:#007F00; font-size:16px;  padding-left:15px}
+.mainmenu #nav li ul li a:hover{ color:#ffffff}
+   
+  
+#content{width:900px; height:600px} 
+ #c1{ width:900px; height:399px; border-bottom:1px #000000 solid; }
+   #c11{ width:199px; height:399px;  border-right:1px #000000 solid; float:left}
+   #c12{ width:499px; height:399px;  border-right:1px #000000 solid; float:left}
+   #c13{ width:200px; height:399px; float:right}
+ #c2{ width:900px; height:217px;  border-bottom:1px #000000 solid;}
+#footer{ background-image:url(footer.jpg); width:900px; height:40px}
+
+#footer h3{ font-style:oblique; font-family:Geneva, Arial, Helvetica, sans-serif; color:#000000; text-align:center; position:relative; top:10px}   
+
+
+
+

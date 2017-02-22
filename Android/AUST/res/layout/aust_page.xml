@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#7bf6b6"
+    android:orientation="vertical" >
+    <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/aust_page"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"/>
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+        
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                
+			<Button 
+	            android:id="@+id/recognization_aust_pageButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	        	android:layout_weight="1"
+	            android:text="@string/recognizatuion_aust_page"
+	            android:textSize="20sp"
+	            android:textAlignment="center"
+	            android:gravity="center"/>
+	    	<Button 
+	            android:id="@+id/rankingButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	        	android:layout_weight="1"
+	            android:text="@string/ranking"
+	            android:textSize="20sp"
+	            android:textAlignment="center"
+	            android:gravity="center"/>
+	    	<Button 
+	            android:id="@+id/internationalButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	        	android:layout_weight="1"
+	            android:text="@string/international"
+	            android:textSize="20sp"
+	            android:textAlignment="center"
+	            android:gravity="center"/>
+	    	<Button 
+	            android:id="@+id/researchButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	        	android:layout_weight="1"
+	            android:text="@string/research"
+	            android:textSize="20sp"
+	            android:textAlignment="center"
+	            android:gravity="center"/>
+	    	<Button 
+	            android:id="@+id/publicationsButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	        	android:layout_weight="1"
+	            android:text="@string/publications"
+	            android:textSize="20sp"
+	            android:textAlignment="center"
+	            android:gravity="center"/>
+	    	<Button 
+	            android:id="@+id/vacancyButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	        	android:layout_weight="1"
+	            android:text="@string/vacancy"
+	            android:textSize="20sp"
+	            android:textAlignment="center"
+	            android:gravity="center"/>    
+            
+            </LinearLayout>
+        
+        
+        
+    </ScrollView>
+
+    
+    
+</LinearLayout>

@@ -1,0 +1,9 @@
+E:\Education\3.2\SD\ShopManagement\ShopManagement\bin\Debug\ShopManagement.exe.config
+E:\Education\3.2\SD\ShopManagement\ShopManagement\bin\Debug\ShopManagement.exe
+E:\Education\3.2\SD\ShopManagement\ShopManagement\bin\Debug\ShopManagement.pdb
+E:\Education\3.2\SD\ShopManagement\ShopManagement\obj\Debug\ShopManagement.Properties.Resources.resources
+E:\Education\3.2\SD\ShopManagement\ShopManagement\obj\Debug\ShopManagement.csproj.GenerateResource.Cache
+E:\Education\3.2\SD\ShopManagement\ShopManagement\obj\Debug\ShopManagement.exe
+E:\Education\3.2\SD\ShopManagement\ShopManagement\obj\Debug\ShopManagement.pdb
+E:\Education\3.2\SD\ShopManagement\ShopManagement\obj\Debug\ShopManagement.UserInterface.resources
+E:\Education\3.2\SD\ShopManagement\ShopManagement\obj\Debug\ShopManagement.csprojResolveAssemblyReference.cache

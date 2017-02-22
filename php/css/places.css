@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 1000px;
+    background-image: url("../pagebackground/index2.jpg");
+    background-size: 1600px 1200px;
+    background-repeat: no-repeat;
+    margin: 50px auto 0;
+    text-align: center;
+}
+#zone_class{
+    float: left;
+    position: relative;
+    width: 700px;
+    padding: 20px 10px 20px 10px;
+}
+#login_create_class{
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+#login_class, #create_class{
+    border: none;
+    margin: 0 10px 0 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    color: white;
+}
+#login_class:hover, #create_class:hover{
+    background-color: #257188;
+    cursor: pointer;
+}
+#side_news_class{
+    float: right;
+    padding: 20px 5px 20px 5px;
+}
+#advertisement_class{
+    float: right;
+    padding: 20px 30px 20px 20px;
+}

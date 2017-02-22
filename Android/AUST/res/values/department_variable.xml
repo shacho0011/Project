@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="department_page">Department</string>
+    <string name="cse">Computer Science and Engineering</string>
+    <string name="eee">Electrical and Electronic Engineering</string>
+    <string name="civil">Civil Engineering</string>
+    <string name="mpe">Mechanical and Production Engineering</string>
+    <string name="architecture">Architecture</string>
+    <string name="arts_and_science">Arts and Science</string>
+    <string name="bba">Bechalor of Business Administration</string>
+    <string name="textile">Textile Engineering</string>
+    
+</resources>

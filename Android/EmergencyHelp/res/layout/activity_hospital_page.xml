@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/hospital">
+    <Button
+        android:id="@+id/SquareButton" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Square"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/ApolloButton" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Apollo"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/ShomoritaButton" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Shomorita"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/BSMMUButton" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/BSMMU"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/HolyFamilyButton" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/HolyFamily"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <Button 
+        android:id="@+id/ShohwardiButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Shohwardi"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <Button 
+        android:id="@+id/GreenLifeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/GreenLife"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <Button 
+        android:id="@+id/UnitedHospitalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/UnitedHospital"
+        android:textSize="20sp"
+        android:gravity="center"/>
+     <Button 
+        android:id="@+id/IbnSinaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/IbnSina"
+        android:textSize="20sp"
+        android:gravity="center"/>
+     <Button 
+        android:id="@+id/BirdemButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Birdem"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+     
+    
+</LinearLayout>

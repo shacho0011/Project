@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/police">
+    
+    <Button 
+        android:id="@+id/tejgaonPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Tejgaon Police Station"/>
+    
+    <Button 
+        android:id="@+id/dhanmondiPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Dhanmondi Police Station"/>
+    
+    <Button 
+        android:id="@+id/mirpurPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Mirpur Police Station"/>
+    
+    <Button 
+        android:id="@+id/uttaraPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Uttara Police Station"/>
+    
+    <Button 
+        android:id="@+id/ramnaPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Ramna Police Station"/>
+    
+    <Button 
+        android:id="@+id/kotwaliPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Kotwali Police Station"/>
+    
+    <Button 
+        android:id="@+id/kafrulPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Kafrul Police Station"/>
+    <Button 
+        android:id="@+id/baddaPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Badda Police Station"/>
+    <Button 
+        android:id="@+id/gulsanPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Gulsan Police Station"/>
+        
+
+</LinearLayout>

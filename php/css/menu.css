@@ -1,0 +1,21 @@
+ul.menubar_ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li.menubar_li{
+    float: left;
+    font-size: 16px;
+    
+}
+a.menubar_a:link, a.menubar_a:visited {
+    display: block;
+    width: 80px;
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+a.menubar_a:hover, a.menubar_a:active{
+    background-color: #257188;
+}

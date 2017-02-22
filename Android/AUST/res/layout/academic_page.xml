@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#7bf6b6"
+    android:orientation="vertical">
+    <TextView 
+		android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/academic_page"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"/>
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+         <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+			
+			<Button 
+		        android:id="@+id/recognizationButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:text="@string/recognization_academic_page"
+		        android:textSize="20sp"
+		        android:textAlignment="center"
+		        android:textColor="@android:color/holo_red_dark"
+		        android:gravity="center"/>
+			
+		    <Button 
+		        android:id="@+id/exam_grading_systemButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:text="@string/exam_grading_system"
+		        android:textSize="20sp"
+		        android:textAlignment="center"
+		        android:textColor="@android:color/holo_red_dark"
+		     	android:gravity="center"/>
+		
+		    <Button 
+		        android:id="@+id/lab_academic_pageButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:text="@string/lab_academic_page"
+		        android:textSize="20sp"
+		        android:textAlignment="center"
+		        android:textColor="@android:color/holo_red_dark"
+		        android:gravity="center"/>
+		    
+		    <Button 
+		        android:id="@+id/library_academic_pageButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:text="@string/library_academic_page"
+		        android:textSize="20sp"
+		        android:textAlignment="center"
+		        android:textColor="@android:color/holo_red_dark"
+		        android:gravity="center"/>
+		    
+		    <Button 
+		        android:id="@+id/academic_calendar_academic_pageButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:text="@string/academic_calendar_academic_page"
+		        android:textSize="20sp"
+		        android:textAlignment="center"
+		        android:textColor="@android:color/holo_red_dark"
+		        android:gravity="center"/>
+		    
+		    <Button 
+		        android:id="@+id/tutions_and_feesButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:text="@string/tutions_and_fees"
+		        android:textSize="20sp"
+		        android:textAlignment="center"
+		        android:textColor="@android:color/holo_red_dark"
+		        android:gravity="center"/>
+		        
+       </LinearLayout>
+            
+        
+    </ScrollView>
+    
+    
+</LinearLayout>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ভ্রমণ.কম</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="logInStyle.css">
+
+    </head>
+    <body>
+        
+            <section>
+                
+                <div id="logInFormContainer">
+                    <form id="logInForm" action = "process.php" method = "POST">
+                        <fieldset>
+                            <p style="font-size: 20px; font-weight: bold; color: #494949">Sign in to your account</p>
+                            <p style="color: #7a7a7a">Access your account information and manage your bookings.</p>
+                            <br /> 
+                            <div id="uNmaePwordInputContainer">
+                                 <div id="userNameInputDiv">
+                                <p >User name:</p>
+                                <input type="text" id="userNameInput" name = "username"
+                                       required oninvalid="this.setCustomValidity('Enter user name')">   
+                                </div>
+
+                                <div id="passwordInputDiv">
+                                        <p id="guestP">Password:</p>
+                                        <input type="password" id="passwordInput" name = "password"
+                                               required oninvalid="this.setCustomValidity('Enter a valid password')"> 
+                                </div>
+                            </div>
+                            
+                            <div id="signUpDiv">
+                               <a href="signUp.html" id="signUpHref" >Create new account</a> 
+                            </div>
+                            
+                            
+                           <br />
+                           <input type="submit" value="Log in" id="logInButton">
+                           
+                        </fieldset>
+                    </form>
+
+
+                    </div>
+
+
+            </section>
+            
+            <footer>
+                
+            </footer>
+            
+        </div>
+    </body>
+</html>

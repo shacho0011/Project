@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AUST</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_01">Splash_01</string>
+    <string name="title_activity_splash">AUST</string>
+    <string-array name = "department_selection">
+        <item >Select Department</item>
+        <item >Architecture</item>
+        <item >CSE</item>
+        <item >EEE</item>
+        <item >MPE</item>
+        <item >Civil</item>
+        <item >Textile</item>
+        <item >BBA</item>
+        <item >Arts and Science</item>
+    </string-array>
+
+</resources>

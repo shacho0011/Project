@@ -1,0 +1,18 @@
+.media_div_class ul{
+    float: left;
+    padding-left: 441px;
+}
+
+.media_div_class li{
+    float: left;
+    position: relative;
+    margin: 2px;
+    padding: 5px;
+    list-style: none;
+}
+.media_div_class a{
+    text-decoration: none;
+}
+.media_div_class ul:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_main_page">Ahsanullah University of Science and Technology</string>
+    <string name="about">About</string>
+    <string name="aust">AUST</string>
+    <string name="aust_life">AUST Life</string>
+    <string name="student_corner">Student Corner</string>
+    <string name="notice_board">Notice Board</string>
+    <string name="department">Department</string>
+    <string name="admission">Admission</string>
+    <string name="academic">Academic</string>
+    <string name="gallery">Gallery</string>
+    <string name="admin_log_in">Admin Log In</string>
+    <string name="show_data">Show Data</string>
+    <string name="delete_data">Delete Data</string>
+    <string name="update_data">Update Data</string>
+    
+</resources>

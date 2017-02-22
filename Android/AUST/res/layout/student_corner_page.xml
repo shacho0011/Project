@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#7bf6b6"
+    android:orientation="vertical" >
+    <TextView 
+		android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/student_corner_page"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"/>
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+			android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            
+			<Button 
+		        android:id="@+id/class_routineButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:text="@string/class_routine"
+		        android:textSize="20sp"
+		        android:textAlignment="center"
+		        android:gravity="center"/>
+		    <Button 
+		        android:id="@+id/exam_routineButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:text="@string/exam_routine"
+		        android:textSize="20sp"
+		        android:textAlignment="center"
+		        android:gravity="center"/>
+		    <Button 
+		        android:id="@+id/exam_resultButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:text="@string/exam_result"
+		        android:textSize="20sp"
+		        android:textAlignment="center"
+		        android:gravity="center"/>
+		    <Button 
+		        android:id="@+id/academic_calendar_student_corner_pageButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:text="@string/academic_calendar_student_corner_page"
+		        android:textSize="20sp"
+		        android:textAlignment="center"
+		        android:gravity="center"/>
+		    <Button 
+		        android:id="@+id/student_welfareButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:text="@string/student_welfare"
+		        android:textSize="20sp"
+		        android:textAlignment="center"
+		        android:gravity="center"/>
+		    <Button 
+		        android:id="@+id/gpaCalculatorButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:text="GPA Calculator"
+		        android:textSize="20sp"
+		        android:textAlignment="center"
+		        android:gravity="center"/>
+		    
+        </LinearLayout>
+             
+    </ScrollView>
+
+</LinearLayout>

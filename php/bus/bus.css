@@ -1,0 +1,38 @@
+/* CSS Document */
+
+#main{width:auto; height:auto; margin:0 auto; background-image:url(bg112.jpg); padding-left:200px;}
+#header{width:900px; height:200px;  border:double; border-collapse:inherit}
+ .h1{ width:700px; height:200px; float:left}
+ .h2{ width:200px; height:200px; float:right}
+ .h2 h4{font-style:inherit; font-family: Arial, Helvetica, sans-serif; color:#ffffff; position:relative; top:1px}
+ 
+#headlines{width:900px; height:30px; border:double; border-collapse:collapse}
+ #hl1{background-color:#006666; width:150px; height:30px; float:left}
+ #hl2{ width:750px; height:30px; float:right}
+  h4{font-style:inherit; font-family: Arial, Helvetica, sans-serif; color:#990000; padding-left:5px; text-shadow: 1px 1px 1px #000;}
+ 
+ 
+.mainmenu{ height:28px; width:900px; border:double; border-collapse:inherit }
+.mainmenu #nav{ margin:0; padding:05px}
+.mainmenu #nav li{ list-style:none; float:left; position:relative}
+.mainmenu #nav li a{ text-decoration:none; display:block; font-size:18px; font-style:inherit; font-family: Arial, Helvetica, sans-serif; text-align:center; color:#AA1F00; margin-left:34px; margin-right:34px; text-shadow: 1px 1px 1px #bbb;}
+.mainmenu #nav li a:hover{ color:#000000}
+
+/* drop menu csss stat  */
+
+
+   
+  
+#content{width:900px; height:600px;border:double; border-collapse:inherit} 
+ #c1{ width:900px; height:399px; border-bottom:1px #000000 solid; }
+   #c11{ width:199px; height:399px;  border-right:1px #000000 solid; float:left}
+   #c12{ width:499px; height:399px;  border-right:1px #000000 solid; float:left}
+   #c13{ width:200px; height:399px; float:right}
+ #c2{ width:900px; height:217px}
+#footer{  width:900px; height:40px; border:double; border-collapse:separate}
+
+#footer h3{ font-style:inherit; font-family: Arial, Helvetica, sans-serif; color:#000000; text-align:center; padding-bottom:10px}   
+
+
+
+

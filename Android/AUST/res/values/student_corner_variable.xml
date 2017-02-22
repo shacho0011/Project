@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="student_corner_page">Student Corner</string>
+    <string name="class_routine">Class Routine</string>
+    <string name="exam_routine">Exam Routine</string>
+    <string name="student_welfare">Student Welfare</string>
+    <string name="exam_result">Exam Result</string>
+    <string name="academic_calendar_student_corner_page">Academic Caleddar</string>
+    
+</resources>

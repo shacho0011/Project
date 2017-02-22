@@ -1,0 +1,85 @@
+.slider{
+    width: 150px;
+    overflow: hidden;
+}
+ul, li{
+    margin: 0px;
+    padding: 0px;
+}
+.slider ul{
+    width: 10000px;
+    position: relative;
+    -webkit-animation: slide 30s;
+}
+
+.slider li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+.slider a{
+    text-decoration: none;
+}
+.slider h1{
+    position: absolute;
+    width: 100%;
+    bottom:0px;
+    background: rgba(0,0,0,.3);
+    color: whitesmoke;
+    padding: 6px 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 12px;
+    -webkit-animation: headings 30s;
+}
+.slider ul,
+.slider h1{
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-out;
+}
+.slider ul:hover,
+.slider ul:hover h1{
+    -webkit-animation-play-state: paused;
+}
+
+@-webkit-keyframes 'slide'{
+    5%{
+        left: 0;
+    }
+    10%,15%{
+        left: -150px;
+    }
+    20%, 25%{
+        left: -300px;
+    }
+    30%, 35%{
+        left: -450px;
+    }
+    40%, 45%{
+        left: -600px;
+    }
+    50%, 55%{
+        left: -750x;
+    }
+    60%, 65%{
+        left: -900px;
+    }
+    70%, 75%{
+        left: -1050px;
+    }
+    80%, 85%{
+        left: -1200px;
+    }
+    90%, 95%{
+        left: -1350px;
+    }
+}
+@-webkit-keyframes 'headings'{
+    5%, 10%,15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%,90%, 95%{
+        bottom: 0px;
+    }
+    7%, 17%, 27%, 37%, 47%, 57%, 67%, 77%, 87%, 97%{
+        bottom: -150px;
+    }
+}
+

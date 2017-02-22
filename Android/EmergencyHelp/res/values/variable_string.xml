@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blood_bank">Blood Bank</string>
+    <string name="hospital">Hospital</string>
+    <string name="fire_service">Fire Service</string>
+    <string name="police">Police</string>
+    <string name="user_contact">User Contact</string>
+    <string name="traffic">Traffic Control Room</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="doctor">Doctor</string>
+    <string name="cost_guard">Cost Guard</string>
+    <string name="instruction">Instruction </string>
+    <string name="location">Location Specific Emergency Service</string>
+    <string name="public_utilities">Public Utilities</string>
+    
+</resources>

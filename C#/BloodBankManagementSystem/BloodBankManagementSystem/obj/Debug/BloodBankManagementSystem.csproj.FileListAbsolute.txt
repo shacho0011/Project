@@ -1,0 +1,18 @@
+C:\Users\Shadhin\Documents\Visual Studio 2012\Projects\BloodBankManagementSystem\BloodBankManagementSystem\bin\Debug\BloodBankManagementSystem.exe.config
+C:\Users\Shadhin\Documents\Visual Studio 2012\Projects\BloodBankManagementSystem\BloodBankManagementSystem\bin\Debug\BloodBankManagementSystem.exe
+C:\Users\Shadhin\Documents\Visual Studio 2012\Projects\BloodBankManagementSystem\BloodBankManagementSystem\bin\Debug\BloodBankManagementSystem.pdb
+C:\Users\Shadhin\Documents\Visual Studio 2012\Projects\BloodBankManagementSystem\BloodBankManagementSystem\obj\Debug\BloodBankManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Shadhin\Documents\Visual Studio 2012\Projects\BloodBankManagementSystem\BloodBankManagementSystem\obj\Debug\BloodBankManagementSystem.Form1.resources
+C:\Users\Shadhin\Documents\Visual Studio 2012\Projects\BloodBankManagementSystem\BloodBankManagementSystem\obj\Debug\BloodBankManagementSystem.Properties.Resources.resources
+C:\Users\Shadhin\Documents\Visual Studio 2012\Projects\BloodBankManagementSystem\BloodBankManagementSystem\obj\Debug\BloodBankManagementSystem.csproj.GenerateResource.Cache
+C:\Users\Shadhin\Documents\Visual Studio 2012\Projects\BloodBankManagementSystem\BloodBankManagementSystem\obj\Debug\BloodBankManagementSystem.exe
+C:\Users\Shadhin\Documents\Visual Studio 2012\Projects\BloodBankManagementSystem\BloodBankManagementSystem\obj\Debug\BloodBankManagementSystem.pdb
+E:\Education\3.2\SD\BloodBankManagementSystem\BloodBankManagementSystem\bin\Debug\BloodBankManagementSystem.exe.config
+E:\Education\3.2\SD\BloodBankManagementSystem\BloodBankManagementSystem\bin\Debug\BloodBankManagementSystem.exe
+E:\Education\3.2\SD\BloodBankManagementSystem\BloodBankManagementSystem\bin\Debug\BloodBankManagementSystem.pdb
+E:\Education\3.2\SD\BloodBankManagementSystem\BloodBankManagementSystem\obj\Debug\BloodBankManagementSystem.csprojResolveAssemblyReference.cache
+E:\Education\3.2\SD\BloodBankManagementSystem\BloodBankManagementSystem\obj\Debug\BloodBankManagementSystem.Form1.resources
+E:\Education\3.2\SD\BloodBankManagementSystem\BloodBankManagementSystem\obj\Debug\BloodBankManagementSystem.Properties.Resources.resources
+E:\Education\3.2\SD\BloodBankManagementSystem\BloodBankManagementSystem\obj\Debug\BloodBankManagementSystem.csproj.GenerateResource.Cache
+E:\Education\3.2\SD\BloodBankManagementSystem\BloodBankManagementSystem\obj\Debug\BloodBankManagementSystem.exe
+E:\Education\3.2\SD\BloodBankManagementSystem\BloodBankManagementSystem\obj\Debug\BloodBankManagementSystem.pdb

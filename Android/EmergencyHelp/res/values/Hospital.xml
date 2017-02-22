@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Square">Square</string>
+    <string name="Apollo">Apollo</string>
+    <string name="GreenLife">GreenLife</string>
+    <string name="Shomorita">Shomorita</string>
+    <string name="DhakaMedical">DhakaMedical</string>
+    <string name="HolyFamily">HolyFamily</string>
+    <string name="BSMMU">BSMMU</string>
+    <string name="Birdem">Birdem</string>
+    <string name="LabAid">LabAid</string>
+    <string name="IbnSina">IbnSina</string>
+    <string name="Shohwardi">Shohwardi</string>
+    <string name="MitFord">MitFord</string>
+    <string name="UnitedHospital">UnitedHospital</string>
+    <string name="CMH">CMH</string>
+    
+</resources>

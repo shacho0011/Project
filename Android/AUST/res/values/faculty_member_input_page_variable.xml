@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="faculty_member_input_page">Add a Faculty Member</string>
+    <string name="add">Add Faculty Member</string>
+    <string name="name">Faculty Member Name</string>
+    <string name="designation">Faculty Member Designation</string>
+    <string name="cell_number">Faculty Member Cell Number</string>
+    <string name="email">Faculty Member E-mail</string>
+    
+</resources>

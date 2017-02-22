@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: auto;
+   background-image: url(../pagebackground/background.jpg);
+    background-size: 1600px 1200px;
+    background-repeat: no-repeat;
+    margin: 50px auto 0;
+    text-align: center;
+}
+section.main_div_class{
+    background: blue;
+}
+img.award{
+    float: left;
+    padding-left: 200px;
+}
+img.payment{
+    float: right;
+    position: relative;
+    padding-right: 150px;
+}
+nav{
+    padding-left: 200px;
+}
+#login_create_class{
+    float: right;
+    padding-top: 20px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    color: white;
+}
+#login_class, #create_class{
+    border: none;
+    margin: 0 10px 0 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    color: white;
+}
+#login_class:hover, #create_class:hover{
+    background-color: #257188;
+    cursor: pointer;
+}
+#gallery_slider_class{
+    float: left;
+    padding: 20px 10px 20px 200px;
+}
+#side_news_class{
+    float: right;
+    padding: 20px 150px 20px 5px;
+}
+#article_class{
+    float: left;
+    padding: 20px 10px 20px 200px;
+}
+#advertisement_class{
+    float: right;
+    padding: 20px 150px 20px 20px;
+}
+footer{
+    padding-left: 200px;
+    padding-right: 150px;
+}

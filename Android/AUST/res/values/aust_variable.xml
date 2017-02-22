@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aust_page">Aust</string>
+    <string name="ranking">Ranking</string>
+    <string name="international">International</string>
+    <string name="research">Research</string>
+    <string name="vacancy">Vacancy</string>
+    <string name="publications">Publications</string>
+    <string name="recognizatuion_aust_page">Recognization</string>
+    
+</resources>

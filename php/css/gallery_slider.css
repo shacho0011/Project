@@ -1,0 +1,41 @@
+.gallery_slider{
+    width: 700px;
+    overflow: hidden;
+}
+ul, li{
+    margin: 1px;
+    padding: 0px;
+}
+.gallery_slider ul{
+    width: 10000px;
+    position: relative;
+    -webkit-animation: gslide 60s;
+}
+
+.gallery_slider li{
+    float: left;
+    list-style: none;
+    position: relative;
+    border: 1px solid black;
+}
+.gallery_slider a{
+    text-decoration: none;
+}
+.gallery_slider ul{
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-out;
+}
+.gallery_slider ul:hover{
+    -webkit-animation-play-state: paused;
+}
+
+@-webkit-keyframes 'gslide'{
+    5%{
+        left: 0;
+    }
+    100%{
+        left: -4000px;
+    }
+}
+}
+

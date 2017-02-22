@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="DMC">DMC</string>
+    <string name="SSMC">SSMC</string>
+    <string name="Metro">Metro</string>
+    <string name="AsianHospital">AsianHospital</string>
+    <string name="CentralHospital">CentralHospital</string>
+    <string name="CareHospital">CareHospital</string>
+    <string name="HeartFoundation">HeartFoundation</string>
+    <string name="TBHospital">TBHospital</string>
+    
+</resources>

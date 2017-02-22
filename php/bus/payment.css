@@ -1,0 +1,76 @@
+body{
+    background: white;
+    margin: px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+h1, h2, h3{
+    text-align: center;
+    text-shadow: 0 1px 0 white;
+}
+h2, h3{
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+p{
+    margin-left: 100px;
+}
+#payment_div{
+    width: 600px;
+    border: 1px solid white;
+    background: #f0f0f0;
+    margin: 20px auto 0;
+    padding: 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+input[type=text], input[type=password]{
+    width: 250px;
+    padding: 10px;
+    border: 5px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+}
+#bank{
+    width: 250px;
+    padding: 6px;
+    margin: 0 0 5px 160px;
+}
+#card{
+    width: 250px;
+    padding: 6px;
+    margin: 0 0 5px 122px;
+}
+#cardnumber_input{
+    margin: 0 0 5px 110px;
+}
+#securitycode_input{
+    margin: 0 0 5px 100px;
+}
+#expiredate_input{
+    width: 250px;
+    padding: 6px;
+    margin: 0 0 5px 120px;
+}
+#card_holder_name_input{
+    margin: 0 0 5px 70px;
+}
+.button{
+    border: none;
+    margin: 20px 0 0 500px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background: #348075;
+    color: white;
+    box-shadow: 0 1px 0 white;
+    -webkit-box-shadow: 0 1px 0 white;
+    -moz-box-shadow: 0 1px 0 white;
+}
+.button:hover{
+    background: #287368;
+    cursor: pointer;
+}

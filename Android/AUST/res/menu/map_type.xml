@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/normalMapType" android:title="Normal"></item>
+    <item android:id="@+id/satelliteMapType" android:title="Satellite"></item>
+    <item android:id="@+id/terrianMapType" android:title="Terrian"></item>
+    <item android:id="@+id/hybridMapType" android:title="Hybrid"></item>
+    <item android:id="@+id/noneMapType" android:title="None"></item>
+    <item android:id="@+id/currentLocation" android:showAsAction="always" android:title="Current Location"></item>
+    
+</menu>

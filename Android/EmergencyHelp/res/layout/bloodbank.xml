@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bloodbank">
+
+
+  
+     <Button 
+        android:id="@+id/ShandhaniButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Shandhani"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+   
+    <Button
+        android:id="@+id/BadhonButton" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Badhon"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/RedcrecentButton" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Redcrecent"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/IslamiBankHospitalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/IslamiBankHospital"
+        android:textSize="20sp" 
+        android:gravity="center"/>
+    
+    <Button
+        android:id="@+id/QuantumButton" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Quantum"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+    
+    <Button
+        android:id="@+id/SirSalimullahCollegeButton" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/SirSalimullahCollege"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+    
+</LinearLayout>

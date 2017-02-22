@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="academic_page">Academic</string>
+    <string name="recognization_academic_page">Recognization</string>
+    <string name="exam_grading_system">Examination and Grading System</string>
+    <string name="lab_academic_page">Lab</string>
+    <string name="library_academic_page">Library</string>
+    <string name="tutions_and_fees">Tutions and Fees</string>
+    <string name="class_room_academic_page">Class Room</string>
+    <string name="academic_calendar_academic_page">Academic Calendar</string>
+    
+</resources>

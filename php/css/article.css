@@ -1,0 +1,24 @@
+article{
+    width: 600px;
+    margin: 15px auto;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,1.5);
+    background: -webkit-linear-gradient(top, #81CBBC, #FCF59B, 20%);
+    -webkit-background-size: 100% 40px;
+    -webkit-border-bottom-right-radius: 10px 100px;
+}
+article:before, article:after{
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+p{
+    line-height: 2.5em;
+}
+article footer{
+    text-align: right;
+}

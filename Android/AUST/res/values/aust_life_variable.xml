@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aust_life_page">Aust Life</string>
+    <string name="class_room_aust_life_page">Class Room</string>
+    <string name="lab__aust_life_page">Lab</string>
+    <string name="library_aust_life_page">Library</string>
+    <string name="canteen">Canteen</string>
+    <string name="campus">Campus</string>
+    <string name="co_curricular_activities">Extra/Co-curricular Activities</string>
+    <string name="sports">Sports</string>
+    <string name="festival">Festival</string>
+    
+</resources>

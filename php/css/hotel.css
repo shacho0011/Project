@@ -1,0 +1,13 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+text-align: center;
+}
+#main_wrapper{
+border: 1px solid black;
+width: 1000px;
+margin: 20px auto;
+text-align: left;
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emergencyhelp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ambulance_Service"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.AMBULANCE_SERVICE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Utilities"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.UTILITIES" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".blood_bank_page"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.BLOOD_BANK_PAGE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".cost_guard_page"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.COST_GUARD_PAGE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Doctor_page"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOCTOR_PAGE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Fire_Service_page"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.FIRE_SERVICE_PAGE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Traffic_page"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAFFIC_PAGE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Hospital_page"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.HOSPITAL_PAGE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Police_page"
+            android:label="@string/title_activity_police_page" >
+        </activity>
+        
+        
+        
+        <activity
+            android:name=".User_contact"
+            android:label="@string/title_activity_user_contact" >
+        </activity>
+        
+        <activity
+            android:name=".ContactAdd"
+            android:label="ContactAdd" >
+        </activity>
+        
+        <activity
+            android:name=".ContactList"
+            android:label="ContactList" >
+        </activity>
+        
+        <activity
+            android:name=".Instruction"
+            android:label="Instruction" >
+        </activity>
+        
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/traffic"
+    android:orientation="vertical" >
+   
+    
+    <Button 
+        android:id="@+id/tejgaonTrafficPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Tejgaon Traffic Police Station"/>
+    
+    <Button 
+        android:id="@+id/dhanmondiTrafficPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Dhanmondi Traffic Police Station"/>
+    
+    <Button 
+        android:id="@+id/mirpurTrafficPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Mirpur Traffic Police Station"/>
+    
+    <Button 
+        android:id="@+id/uttaraTrafficPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Uttara Traffic Police Station"/>
+    
+   <Button 
+        android:id="@+id/shahbagTrafficPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Shahbag Traffic Police Station"/>
+   
+   <Button 
+        android:id="@+id/baddaTrafficPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Badda Traffic Police Station"/>
+   
+   <Button 
+        android:id="@+id/motijeelTrafficPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Motijeel Traffic Police Station"/>
+   
+   
+   <Button 
+        android:id="@+id/paltonTrafficPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Palton Traffic Police Station"/>
+   
+   <Button 
+        android:id="@+id/newmarketTrafficPoliceButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Newmarket Traffic Police Station"/>
+</LinearLayout>

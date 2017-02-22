@@ -1,0 +1,17 @@
+#main_header h1{
+    font: bold 26px Tahoma;
+    background: none;
+    color: whitesmoke;
+    text-align: center;
+}
+#main_header h2{
+    font: bold 14px Tahoma;
+    background: none;
+    color: whitesmoke;
+    text-align: center;
+}
+#main_header{
+padding: 20px;
+color:whitesmoke;
+text-align:center;
+}
